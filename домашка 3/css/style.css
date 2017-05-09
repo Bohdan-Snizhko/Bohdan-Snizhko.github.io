@@ -1,0 +1,109 @@
+body {
+    background-color: #f9f9f9;
+}
+.main {
+    margin: auto;
+    width: 1060px;
+    height: 1000px;
+    background-color: white;
+    box-shadow: -webkit-box-shadow: 0px 0px 21px -3px rgba(0,0,0,1);
+                -moz-box-shadow: 0px 0px 21px -3px rgba(0,0,0,1);
+                box-shadow: 0px 0px 21px -3px rgba(0,0,0,1);
+}
+.logo{
+    margin-top: 51px;
+    margin-left: 46px;
+}
+.topmenu li{
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+    width: 100px;
+    
+   
+}
+.topmenu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px rgba(0, 0, 16, 0.71);
+    text-align: center;
+}
+.topmenu {
+    line-height: 40px;
+    margin: 48px;
+    background: linear-gradient(#5e5e5e,#444343);
+}
+
+.topmenu a:hover{
+    background-color: #454545;
+    border-left: 2px solid #838383;
+    border-right: 2px solid #838383;
+    transition: 0.5s all;
+}
+.sidemenu li {
+    
+    width: 210;
+    border: 1px solid grey;
+    
+}
+.sidemenu a {
+    padding-left: 24px;
+    color: #656363;
+    text-decoration: none;
+    display: block;
+    transition: 0.5s all;
+}
+.sidemenu a:hover{
+    color: black;
+    background: #faf9f7;
+    padding: 0 0 0 45px;
+}
+.sidemenu {
+    float: left;
+    width: 240px;
+    height: 240px;
+    line-height: 40px;
+    margin-left: 48px;
+}
+.goods {
+    border: 1px solid grey;
+    height: 400px;
+    text-align: center;
+    
+    
+}
+.content {
+    width: 678px;
+    
+    margin-right: 48px;
+    float: right;
+}
+.description {
+    font-size: 15px;
+    font-weight: 900;
+    color: #2c2c2c;
+    font-family: Open Sans, Arial;
+    padding: 24px;
+    line-height: 20px;
+}
+
+.downmenu li{
+    display: inline-block;
+    margin: 0px 30px 0px 30px;    
+}
+
+.rights {
+    float: right;
+}
+
+    
+.downmenu a {
+    display: block;
+    color: black;
+    text-align: center;
+}
+.downmenu {
+    clear: both;
+    line-height: 40px;
+    margin: 48px;
+    background-color: #e1e1e1;
